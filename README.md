@@ -2,6 +2,12 @@
 
 Desenvolvido por Luiz Del Rei Santos
 
+### Versão do PHP de desenvolvimento
+
+```
+8.0.8
+```
+
 ### Instalando o projeto
 
 #### Clonar o repositório

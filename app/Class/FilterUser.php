@@ -10,7 +10,6 @@ class FilterUser
     $arr_filter_user = array_filter($arr, function ($item) use ($id) {
       return $item['id_user'] == $id;
     });
-   // max($arr_filter_user);
     $array_score = Array();
     foreach($arr_filter_user as $row){
       array_push($array_score, ['score' => $row['score'], 'date' => $row['date']]);

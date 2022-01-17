@@ -16,4 +16,13 @@ class PersonalRecord extends Model
         'value',
         'date'
     ];
+
+    public function user()
+    {
+        return $this->belongsToMany('App\Models\User', 'personal_record', 'id');
+    }
+    public function movement()
+    {
+        return $this->belongsToMany('App\Models\Movement', 'personal_record', 'id');
+    }
 }

@@ -26,6 +26,12 @@ composer update
 
 Copiar o arquivo de exemplo `.env.example` para `.env` na raiz do projeto, configurar os detalhes da aplicação e conexão com o banco de dados.
 
+#### Gerar Key arquivo .env
+
+```
+php artisan key:generate
+```
+
 #### Criar a estrutura no banco de dados
 
 ```
